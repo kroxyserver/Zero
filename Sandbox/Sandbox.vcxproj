@@ -57,7 +57,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>Z_PLATFORM_WINDOWS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)Zero\Source;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Zero\Source;$(SolutionDir)Zero\Vendor\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -72,7 +72,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>Z_PLATFORM_WINDOWS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)Zero\Source;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Zero\Source;$(SolutionDir)Zero\Vendor\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

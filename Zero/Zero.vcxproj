@@ -11,12 +11,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Source\Zero\Log.h" />
     <ClInclude Include="Source\Zero.h" />
     <ClInclude Include="Source\Zero\Application.h" />
     <ClInclude Include="Source\Zero\Core.h" />
     <ClInclude Include="Source\Zero\EntryPoint.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Source\Zero\Log.cpp" />
     <ClCompile Include="Source\Zero\Application.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -66,6 +68,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>Z_PLATFORM_WINDOWS;Z_BUILD_DLL</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Zero\Vendor\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -80,6 +83,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>Z_PLATFORM_WINDOWS;Z_BUILD_DLL</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Zero\Vendor\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
